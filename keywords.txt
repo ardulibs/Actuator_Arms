@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map For RobotWheels
+####################################### 
+# Class
+#######################################
+
+RobotArms	KEYWORD1
+
+#######################################
+# Methods and Functions 
+#######################################	
+
+attach	KEYWORD2
+moveRightUp	KEYWORD2
+moveRightMiddle	KEYWORD2
+moveRightDown	KEYWORD2
+moveLeftUp	KEYWORD2
+moveLeftMiddle	KEYWORD2
+moveLeftDown	KEYWORD2
