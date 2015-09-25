@@ -1,10 +1,10 @@
 #include <Servo.h>
-#include <RobotArms.h>
+#include <ActuatorArms.h>
 
 int left_servo_pin = 6;
 int right_servo_pin = 9;
 
-RobotArms arms;
+ActuatorArms arms;
 
 void setup() {
   Serial.begin(9600);

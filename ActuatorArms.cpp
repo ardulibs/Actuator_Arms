@@ -1,7 +1,7 @@
 /*
  * ActuatorArms
  * Version 0.1.0 Aug, 2015
- * Version 1.0rc1 Sep, 2015
+ * Version 1.0.0rc1 Sep, 2015
  * Copyright 2015 Diego de los Reyes
  *
  * Basic arms control.
