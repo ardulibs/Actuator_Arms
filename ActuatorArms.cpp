@@ -1,19 +1,20 @@
 /*
- * RobotArms
+ * ActuatorArms
  * Version 0.1.0 Aug, 2015
+ * Version 1.0rc1 Sep, 2015
  * Copyright 2015 Diego de los Reyes
  *
  * Basic arms control.
  */
 
-#include "RobotArms.h"
+#include "ActuatorArms.h"
 
  /** CONSTRUCTORS **/
 
 /**
  * Construct.
  */
-RobotArms::RobotArms()
+ActuatorArms::ActuatorArms()
 {
 }
 
@@ -24,7 +25,7 @@ RobotArms::RobotArms()
  * @param pinLeft: pin where the left servo is connected.
  * @param pinRight: pin where the right servo is connected.
  */
-void RobotArms::attach(int pinLeft, int pinRight)
+void ActuatorArms::attach(int pinLeft, int pinRight)
 {
 	right_servo.attach(pinRight);
 	left_servo.attach(pinLeft);
@@ -33,7 +34,7 @@ void RobotArms::attach(int pinLeft, int pinRight)
 /**
  * Moves up the right arm.
  */
-void RobotArms::moveRightUp()
+void ActuatorArms::moveRightUp()
 {
 	right_servo.write(180);
 }
@@ -41,7 +42,7 @@ void RobotArms::moveRightUp()
 /**
  * Moves middle the right arm.
  */
-void RobotArms::moveRightMiddle()
+void ActuatorArms::moveRightMiddle()
 {
 	right_servo.write(90);
 }
@@ -49,7 +50,7 @@ void RobotArms::moveRightMiddle()
 /**
  * Moves down the right arm.
  */
-void RobotArms::moveRightDown()
+void ActuatorArms::moveRightDown()
 {
 	right_servo.write(0);
 }
@@ -57,7 +58,7 @@ void RobotArms::moveRightDown()
 /**
  * Moves up the left arm.
  */
-void RobotArms::moveLeftUp()
+void ActuatorArms::moveLeftUp()
 {
 	left_servo.write(180);
 }
@@ -65,7 +66,7 @@ void RobotArms::moveLeftUp()
 /**
  * Moves middle the left arm.
  */
-void RobotArms::moveLeftMiddle()
+void ActuatorArms::moveLeftMiddle()
 {
 	left_servo.write(90);
 }
@@ -73,7 +74,7 @@ void RobotArms::moveLeftMiddle()
 /**
  * Moves down the left arm.
  */
-void RobotArms::moveLeftDown()
+void ActuatorArms::moveLeftDown()
 {
 	left_servo.write(0);
 }

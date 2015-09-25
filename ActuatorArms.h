@@ -1,19 +1,20 @@
 /*
- * RobotArms
+ * ActuatorArms
  * Version 0.1.0 Aug, 2015
+ * Version 1.0.0rc1 Sep, 2015
  * Copyright 2015 Diego de los Reyes
  *
  * Basic wheels control.
  */
 
-#ifndef RobotArms_h
-#define RobotArms_h
+#ifndef ActuatorArms_h
+#define ActuatorArms_h
 #define LIBRARY_VERSION	 0.1
 
 #include <Servo.h>
 
-// Class RobotArms
-class RobotArms {
+// Class ActuatorArms
+class ActuatorArms {
  
 	/** Public elements. **/
 	public:
@@ -21,7 +22,7 @@ class RobotArms {
 		/**
 		 * Construct.
 		 */
-		RobotArms();
+		ActuatorArms();
 	
 		/**
 		 * Attach the given pins.
