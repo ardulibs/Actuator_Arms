@@ -1,5 +1,5 @@
 #######################################
-# Syntax Coloring Map For ActuatorWheels
+# Syntax Coloring Map For ActuatorArms
 ####################################### 
 # Class
 #######################################
